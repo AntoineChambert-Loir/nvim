@@ -158,7 +158,7 @@ require('lazy').setup({
       }
 
       vim.wo.foldlevel = 99
-      vim.wo.conceallevel = 2
+      vim.wo.conceallevel = 0
     end,
   },
   {
@@ -289,7 +289,7 @@ require('lazy').setup({
 				},
 			},
     },
-    -- 'rebelot/kanagawa.nvim',
+    'rebelot/kanagawa.nvim',
     -- 'olimorris/onedarkpro.nvim',
     -- 'marko-cerovac/material.nvim',
     priority = 1000, -- Ensure it loads first

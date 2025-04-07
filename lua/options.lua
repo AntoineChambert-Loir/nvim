@@ -2,6 +2,9 @@
 -- See `:help vim.o`
 -- NOTE: You can change these options as you wish!
 
+-- Dark background
+vim.o.background = "dark" -- or "light"
+
 -- Set highlight on search
 vim.o.hlsearch = false
 
@@ -51,8 +54,8 @@ vim.o.termguicolors = true
 -- Use file name as window title
 vim.opt.title = true
 
--- vim.cmd("colorscheme kanagawa")
-vim.cmd('colorscheme catppuccin-macchiato " catppuccin-latte, catppuccin-frappe, catppuccin-macchiato, catppuccin-mocha')
+vim.cmd('colorscheme kanagawa-dragon " kanagawa-wave, kanagawa-lotus')
+-- vim.cmd('colorscheme catppuccin-macchiato " catppuccin-latte, catppuccin-frappe, catppuccin-macchiato, catppuccin-mocha')
 vim.cmd("let g:vimtex_quickfix_open_on_warning = 0")
 
 -- Neovide configuration
