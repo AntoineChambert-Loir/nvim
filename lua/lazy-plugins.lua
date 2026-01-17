@@ -381,9 +381,6 @@ require('lazy').setup({
 
     -- see details below for full configuration options
     opts = {
-      lsp = {
-        init_options = { editDelay = 0 },
-      },
       mappings = true,
       abbreviations = {
         -- Enable expanding of unicode abbreviations?
